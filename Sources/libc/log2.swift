@@ -5,7 +5,7 @@
  * FreeBSD (lib/msun/src/e_log2.c)
  */
 
-#if !arch(X86_64)
+#if !arch(x86_64)
 
 let ivln2hi = 1.44269504072144627571e+00, /* 0x3ff71547, 0x65200000 */
     ivln2lo = 1.67517131648865118353e-10, /* 0x3de705fc, 0x2eefa200 */

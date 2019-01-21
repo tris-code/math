@@ -6,5 +6,5 @@ public func log2(_ value: Double) -> Double {
     return Double(log2l(Float80(value)))
 }
 #else
-@_exported import func lib.log2
+@_exported import func libc.log2
 #endif
