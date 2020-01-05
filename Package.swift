@@ -9,9 +9,7 @@ var package = Package(
             targets: ["Math"])
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/tris-code/test.git",
-            .branch("master"))
+        .package(path: "../Test")
     ],
     targets: [
         .target(
