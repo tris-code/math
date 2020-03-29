@@ -9,7 +9,7 @@ var package = Package(
             targets: ["Math"])
     ],
     dependencies: [
-        .package(path: "../Test")
+        .package(path: "../test")
     ],
     targets: [
         .target(
